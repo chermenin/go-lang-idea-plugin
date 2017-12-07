@@ -4,17 +4,15 @@
 /utils/build/
 /plan9/build/
 
+/out/
+/google-app-engine/out/
+/google-app-engine/google-app-engine-yaml/out/
+/utils/out/
+/plan9/out/
+
 .gradle
 
-.idea/workspace.xml
-.idea/modules.xml
-.idea/misc.xml
-.idea/gradle.xml
-.idea/compiler.xml
-.idea/shelf/
-.idea/libraries/
-.idea/.name
-.idea/*.png
+.idea/
 *.iml
 
 /testData/performance/docker/

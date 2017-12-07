@@ -14,15 +14,12 @@
   ~ limitations under the License.
   -->
 
-<idea-plugin version="2">
+<idea-plugin>
   <extensions defaultExtensionNs="com.intellij">
     <moduleType id="GO_MODULE" implementationClass="com.goide.GoModuleType"/>
     <moduleConfigurationEditorProvider implementation="com.goide.configuration.GoModuleEditorsProvider" order="first"/>
     <editorNotificationProvider implementation="com.goide.inspections.WrongModuleTypeNotificationProvider"/>
-
     <projectStructureDetector implementation="com.goide.project.GoProjectStructureDetector"/>
-
     <projectService serviceInterface="com.goide.sdk.GoSdkService" serviceImplementation="com.goide.sdk.GoIdeaSdkService" overrides="true"/>
-
   </extensions>
 </idea-plugin>
